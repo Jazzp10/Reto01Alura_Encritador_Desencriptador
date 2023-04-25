@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+
+        <div class="tabla">
+            <table>
+                <tr >
+                    <th><a href=""><img class="logo" src="./IMG/logo.png" alt=""></a></th>
+                    <th>ALURA ENCRIPTADOR</th>
+                </tr>
+            </table>
+        </div>  
+    </header>
+    <div class="cuerpo">
+        <div class="contenido">
+            <table>
+                <tr>
+                   <td class="texto"> <textarea name="" id="" cols="30" rows="10"></textarea> </td>
+                   <td class="pantalla"><p id="resultado">SIN TEXTO!!</p></td>
+                </tr>
+            </table>
+        </div>
+        <div class="contenido"> 
+            <table>
+                <tr class="botones">
+                    <td><button type="button" onclick="Encriptar(texto1,diccionario1)">ENCRIPTAR</button></td>
+                    <td><button type="button" onclick="Desencriptacion(texto2,diccionario)">DESENCRIPTAR</button></td>
+                    <td><button type="button" onclick="copiar('resultado')">COPIAR</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <footer>
+                <div class="redes">
+                            <div class="img">
+                                <a href="https://github.com/Jazzp10" target="_blank"><img src="./IMG/git.png" alt="GitHub"></a>
+                            </div>
+                            <div class="img">
+                                <a href="https://www.linkedin.com/in/sergio-penagos-865031180/" target="_blank"><img src="./IMG/linkedin.png" alt="  Linkedin"></a>
+                            
+                            </div>
+                            <div class="img">
+                                <a href="https://twitter.com/sergiop56670786" target="_blank"><img src="./IMG/twitter.png" alt="Twitter"></a>
+                            </div>
+
+                           
+                </div>
+                <div class="nombre">
+                    <p>SERGIO ANDRES PENAGOS ACEVEDO</p>
+                </div>
+            </footer>
+        </div>
+    </div>
+   
+  <script src="./JS/encriptar.js"></script>
+  <script src="./JS/desencriptar.js"></script>
+  <script src="./JS/imprimir.js"></script>
+  <script src="./JS/copiar.js"></script>
+    
+</body>
+</html>
